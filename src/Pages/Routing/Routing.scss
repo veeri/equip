@@ -1,0 +1,17 @@
+
+
+.Routing{
+    height: 100%;
+    display: block;
+    background-color: #f1f4f9;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .route-body{
+        .rbody{
+            width: 96%;
+            height: 90vh;
+            margin: -90px 2% 0;
+        }
+    }
+}

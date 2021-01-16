@@ -1,0 +1,35 @@
+.dashboard {
+  .apptm-info {
+    height: 150px;
+    padding: 2vh;
+    background-color: #ffffff;
+    color: rgb(32, 29, 29);
+    font-weight: 450;
+    font-size: 14px;
+
+    h6 {
+      margin-bottom: 0px;
+    }
+
+    .info {
+      font-size: 16px;
+      height: 80px;
+      background-color: #f1f4f9;
+      margin: 3px;
+      padding: 5px;
+      border: 1px solid #e6dfdf;
+      font-weight: 500;
+      //   opacity: 0.9;
+      border-radius: 5px;
+      box-shadow: 3px 3px #dfe3e8;
+    }
+  }
+
+  .charts {
+    height: 500px;
+    margin: 10px 0;
+    div {
+      background-color: #ffffff;
+    }
+  }
+}

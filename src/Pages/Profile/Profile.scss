@@ -1,0 +1,119 @@
+.Profile {
+  .short-des {
+    background-color: #ffffff;
+    height: 250px;
+  }
+
+  .profile_left,
+  .profile_right {
+    background-color: white;
+    border-top: 0px !important;
+  }
+  .profile_left {
+    max-height: 250px;
+  }
+
+  .profile_left_Header {
+    background-color: #63c08b;
+    color: white;
+  }
+  .profile_form_container {
+    // max-height: 460px;
+    background-color: #f8f9fb;
+  }
+  .profile_form_left_title {
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .profile_form_left_image {
+    text-align: center;
+    .profile-img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+    }
+    .signature-img {
+      height: 80px;
+      width: 250px;
+    }
+  }
+  .upload-btn-fill,
+  upload-btn-outline:hover {
+    background-color: #63c08b;
+    color: white;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .upload-btn-outline,
+  upload-btn-fill:hover {
+    border: solid 1px #63c08b;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #63c08b;
+    background-color: white;
+    font-family: inherit;
+  }
+  .profile_form_left_buttons_container {
+    text-align: center;
+  }
+  .profile_right_form_container {
+    label {
+      font-size: 13px;
+      opacity: 0.9;
+      margin-bottom: 0.3rem !important;
+    }
+    input {
+      background-color: #eeeeee !important;
+      font-size: 14px;
+      border-radius: 0 !important;
+    }
+  }
+  .text-editor {
+    label {
+      font-size: 13px;
+      opacity: 0.9;
+      margin-bottom: 0.3rem !important;
+    }
+  }
+
+  .EditorToolbar__root___3_Aqz {
+    .ButtonGroup__root___3lEAn {
+      margin-bottom: 0 !important;
+    }
+    button,
+    select {
+      border: 0 !important;
+    }
+    select {
+      background-color: #f8f9fb;
+    }
+    background-color: #f8f9fb !important;
+    margin: 0 !important;
+    padding: 0.5rem;
+  }
+
+  .info-text {
+    text-align: center;
+    margin: 0.8rem 0;
+    font-size: 11px;
+    opacity: 0.7;
+    font-weight: 500;
+  }
+  .flex_1 {
+    flex: 1;
+  }
+  @media screen and (max-width: 992px) {
+    .profile_right {
+      flex: 1 !important;
+    }
+    .profile_right_form_container {
+      justify-content: center !important;
+      flex-wrap: wrap !important;
+      div {
+        width: 100%;
+      }
+    }
+  }
+}
